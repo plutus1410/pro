@@ -1,0 +1,1 @@
+{"status":"failed","schema":3,"symbol":"VAML.NS","reason":"I couldn't find the company's latest annual report automatically.","tried":["screener: screener.in lists no annual reports for this company","nse: NSE returned no annual-report PDFs for this symbol","company_site: no annual-report PDF found on the company website"],"prepared_at":"2026-11-01T19:09:27Z"}
