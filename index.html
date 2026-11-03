@@ -9,7 +9,7 @@
     <!-- theme: light by default; a saved choice (the toggle in the top bar) wins. Runs before the CSS so the page never flashes the wrong theme. -->
     <script>(function(){var t='light';try{t=localStorage.getItem('plutus.theme.v1')==='dark'?'dark':'light';}catch(e){}document.documentElement.setAttribute('data-theme',t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',t==='dark'?'#02070a':'#f6f3ec');})();</script>
     <!-- PWA: installable web app -->
-    <link rel="manifest" href="manifest.webmanifest?v=79" />
+    <link rel="manifest" href="manifest.webmanifest?v=80" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -19,12 +19,12 @@
     <!-- catch the browser's install event as early as possible (it can fire before js/pwa.js has loaded) -->
     <script>window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();window.__plutusInstallEvt=e;try{window.dispatchEvent(new Event('plutus:installready'));}catch(x){}});</script>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='none' stroke='%233ea6ff' stroke-width='2'/><circle cx='16' cy='16' r='4' fill='%23fff'/></svg>" />
-  <link rel="stylesheet" href="css/style.css?v=79" />
-  <link rel="stylesheet" href="css/news.css?v=79" />
-    <link rel="stylesheet" href="css/pwa.css?v=79" />
-    <link rel="stylesheet" href="css/voice.css?v=79" />
-    <link rel="stylesheet" href="css/compare.css?v=79" />
-    <link rel="stylesheet" href="css/screen.css?v=79" />
+  <link rel="stylesheet" href="css/style.css?v=80" />
+  <link rel="stylesheet" href="css/news.css?v=80" />
+    <link rel="stylesheet" href="css/pwa.css?v=80" />
+    <link rel="stylesheet" href="css/voice.css?v=80" />
+    <link rel="stylesheet" href="css/compare.css?v=80" />
+    <link rel="stylesheet" href="css/screen.css?v=80" />
 </head>
 <body>
   <!-- v12: opening splash (main screen only, about one second) — removed by the small script at the end of the page -->
@@ -122,16 +122,16 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
-  <script src="js/config.js?v=79"></script>
-  <script src="js/companies.js?v=79"></script>
-  <script src="js/analysis.js?v=79"></script>
-  <script src="js/screener.js?v=79"></script>
-  <script src="js/app.js?v=79"></script>
-  <script src="js/news.js?v=79"></script>
-    <script src="js/pwa.js?v=79"></script>
-    <script src="js/voice.js?v=79"></script>
-    <script src="js/compare.js?v=79"></script>
-    <script src="js/screen.js?v=79"></script>
+  <script src="js/config.js?v=80"></script>
+  <script src="js/companies.js?v=80"></script>
+  <script src="js/analysis.js?v=80"></script>
+  <script src="js/screener.js?v=80"></script>
+  <script src="js/app.js?v=80"></script>
+  <script src="js/news.js?v=80"></script>
+    <script src="js/pwa.js?v=80"></script>
+    <script src="js/voice.js?v=80"></script>
+    <script src="js/compare.js?v=80"></script>
+    <script src="js/screen.js?v=80"></script>
     <script>
       // v12: keep the splash on screen for at least one second, then fade it out
       (function () {
