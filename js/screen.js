@@ -217,7 +217,7 @@
       <section class="sx-head">
         <p class="eyebrow">Stock screener</p>
         <h1>Find companies by the numbers</h1>
-        <p class="sx-sub"><code>Market Capitalization &gt; 5000 AND Return on capital employed &gt; 20</code>. Money is in ₹ crore, percentages are plain numbers. Covers the <span id="sxIdx">Nifty 500</span>.</p>
+        <p class="sx-sub">Money is in ₹ crore, percentages are plain numbers. Covers the <span id="sxIdx">Nifty 500</span>.</p>
       </section>
       <section class="sx-box">
         <div class="sx-qwrap">
