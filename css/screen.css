@@ -249,3 +249,4 @@ a.mk-i:hover .mk-n, a.mk-i:focus-visible .mk-n { color: var(--accent); text-deco
   .mk-pause { display: none; }
 }
 @media print { .mkt { display: none; } }
+.mk-pause { display: none; }
